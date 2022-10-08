@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbox{
+    display: grid;
+    background: linear-gradient(0.25turn ,#48974f, #706196,#d366b8);
+    padding: 10px;
+}
+.mainbox:hover{
+    background: linear-gradient(0.25turn ,#e04f45bb, #f3bc25ce,#e8eb37dc,#32df40d2, #2acadfd0,#e63030ea);
+}
+.box1{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0px 7px 0px;
+}
+.box1 h1{
+    color: azure;
+}
+.socialicon{
+    display: inline-flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.yt{
+    color: red;
+    margin: 2px 7px;
+}
+.fb{
+    color: blue;
+    margin: 2px 7px;
+}
+.twit{
+    color: rgb(33, 33, 163);
+    margin: 2px 7px;
+}
+.insta{
+    color: #f7500e;
+    margin: 2px 7px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: 24vw 24vw 24vw 24vw;
+}
+.logo{
+    font-size: 25px;
+    color: antiquewhite;
+}
+.over{
+    display: grid;
+}
+.over p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.over a{
+    text-decoration: none;
+    color: bisque;
+    width: 5vw;
+}
+.supp{
+    display: inline-flex;
+    flex-direction: column;
+}
+.supp p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.supp a{
+    text-decoration: none;
+    color: bisque;
+    width: 5vw;
+}
+.resor{
+    display: inline-flex;
+    flex-direction: column;
+}
+.resor p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.resor a{
+    text-decoration: none;
+    color: bisque;
+    width: 9vw;
+}
+.box3{
+    display: inline-flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.app1{
+    color: rgb(91, 215, 219);
+    margin: 10px 17px;
+}
+
+.app2{
+    color: rgb(116, 181, 241);
+    margin: 10px 17px;
+}
+.app3{
+    color: rgb(247, 247, 19);
+    margin: 10px 17px;
+}
+
+.box4{
+    display: grid;
+    grid-template-columns: 12vw 10vw 53vw 22vw;
+}
+.tandc a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.privecy a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.copy{
+    text-align: center;
+}
+.top{
+    text-align: end;
+}
+@media (max-width:800px)
+{
+   
+    .box2{
+        display: none;
+    }
+   
+    .box4 {
+        display: none;
+    }
+        
+    
+}

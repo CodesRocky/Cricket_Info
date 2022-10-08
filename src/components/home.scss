@@ -1,0 +1,27 @@
+.ple{
+    
+    background: linear-gradient(0.25turn ,#3f87a6, #ebf8e1,#f69d3c, #4dbcecb7, #bdf393af, #d3a677);
+    width: 100%;
+    text-align: center;
+    display:inline-flex;
+    justify-content: center;
+    min-height: 100vh;
+    animation: anim 10s easy-in-out infinite;
+}
+
+
+.container{
+    max-height: 60vh;
+}
+   @media (max-width:900px)
+   {
+    .container{
+        max-height: 27vh;
+    }
+    .ple{
+        min-height: 45vh;
+    }
+   }
+
+  
+   

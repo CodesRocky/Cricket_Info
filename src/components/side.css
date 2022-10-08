@@ -1,0 +1,14 @@
+.sul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: #333;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border: 2px solid #333;
+  z-Index: 1;
+  top: 56px;
+  left:0;
+}

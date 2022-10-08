@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.tbox{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.trul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin: 9px;
+    
+}
+.trank{
+    width: 6vw;
+    background: antiquewhite;
+    text-align: center;
+}
+.tname{
+    width: 10vw;
+    background: rgb(235, 161, 222);
+    text-align: center;
+}
+.tpoint{
+    width: 6vw;
+    background: rgb(171, 167, 233);
+    text-align: center;
+}
+.alltr{
+    display: flex;
+}
+@media (max-width:1150px) {
+    .alltr{
+        display: flex;
+        flex-direction: column;
+    }
+    .trank{
+        width: 17vw;
+        background: antiquewhite;
+        text-align: center;
+    }
+    .tname{
+        width: 36vw;
+        background: rgb(235, 161, 222);
+        text-align: center;
+    }
+    .tpoint{
+        width: 17vw;
+        background: rgb(171, 167, 233);
+        text-align: center;
+    }
+}

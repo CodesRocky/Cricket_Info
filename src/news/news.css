@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.dnws{
+    display: grid;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    grid-gap: 0px 0px;
+    grid-template-columns: auto auto auto;
+}
+.newsbox{
+    background: linear-gradient(0.25turn,#e7a1a7, #c7dfb3,#d1bba1, #a5c3cfb7, #c0dfaaaf);
+    
+    border-radius: 8px;
+    margin: 7px;
+    padding: 4px;
+    
+}
+.newsbox ul{
+    list-style: none;
+    display: grid;
+    text-align: left;
+    max-width: 22vw;
+}
+.newsct{
+display: inline-flex;
+width:6vw;
+overflow: hidden;
+}
+.newscn{
+    min-height: 10vh;
+    word-break: break-word;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+}
+.newsau{
+    min-height: 7vh;
+    overflow: hidden;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Dancing Script', cursive;
+}
+@media (max-width:800px) {
+    .dnws{
+        grid-template-columns: auto;
+    }
+    .newsbox{
+        width: 70vw;
+    }
+    .newsct{
+        min-width: 60vw;
+        min-height: 5vh;
+        overflow: hidden;
+        }
+        .newscn{
+            min-width: 60vw;
+            min-height: 16vh;
+            word-break: break-word;
+        }
+        .newsau{
+            min-width: 60vw;
+            min-height: 5vh;
+            overflow: hidden;
+        }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+.hdr{
+  background: #030a0a;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.hlink{
+  text-decoration: none;
+  font-size: 7vh;
+  color: #292c27;
+  display: block;
+  padding: 0px 10px;
+  font-family: 'DynaPuff', cursive;
+}
+.hlink:hover{
+  text-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 100px #03e9f4;
+  font-family: 'DynaPuff', cursive;
+  color: #fdfdfd;
+}
+.ul
+{
+    list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background: linear-gradient(0.25turn ,#3f87a6, #ebf8e1,#f69d3c, #4dbcecb7, #bdf393af, #d3a677);
+  
+}
+.ul li
+{
+    display: inline;
+    float: left;
+    text-transform: uppercase;
+    
+}
+.ulink{
+             padding:17px 17px;
+             color: rgb(29, 28, 28);
+             text-decoration:none;
+             display: block;
+            font-size: 2vh;
+            font-family: 'DynaPuff', cursive;
+            
+}
+.ulink:hover{
+  text-shadow: 2px 2px 3px yellowgreen;
+  color: rgb(39, 3, 12);
+  text-decoration: #f129c6 wavy underline 4px;
+  font-weight: 900;
+}
+  
+
+
+@media (max-width: 900px) {
+  .ul{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
